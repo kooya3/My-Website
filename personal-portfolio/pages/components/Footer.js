@@ -9,31 +9,31 @@ const Footer = () => {
         <ul className="flex">
             <li>
                 <div className="w-36 h-36">
-                <Image src={Airbnb} />
+                <Image src={Airbnb} alt="airbnb logo" />
                 </div>
             </li>
 
             <li>
                 <div className="w-36 h-36">
-                <Image src={Airbnb} />
+                <Image src={Airbnb} alt="airbnb logo" />
                 </div>
             </li>
 
             <li>
                 <div className="w-36 h-36">
-                <Image src={Airbnb} />
+                <Image src={Airbnb} alt="airbnb logo" />
                 </div>
             </li>
 
             <li>
                 <div className="w-36 h-36">
-                <Image src={Airbnb} />
+                <Image src={Airbnb} alt="airbnb logo" />
                 </div>
             </li>
 
             <li>
                 <div className="w-36 h-36">
-                <Image src={Airbnb} />
+                <Image src={Airbnb} alt="airbnb logo" />
                 </div>
             </li>
         </ul>
