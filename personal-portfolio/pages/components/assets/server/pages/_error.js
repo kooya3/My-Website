@@ -127,7 +127,7 @@ module.exports = require("react");
 ;
 
 // load runtime
-var __webpack_require__ = require("../webpack-runtime.js");
+var __webpack_require__ = require("../components/assets/server/webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
 var __webpack_exports__ = (__webpack_exec__("./node_modules/next/dist/pages/_error.js"));
