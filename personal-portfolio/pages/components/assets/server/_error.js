@@ -7,8 +7,6 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-let myModule = {module};
-
 (() => {
 var exports = {};
 exports.id = "/_error";

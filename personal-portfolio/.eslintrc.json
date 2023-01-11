@@ -2,6 +2,21 @@
   "extends": "next",
   "rules": {
     "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-page-custom-font": "off",
+      "plugins": [
+          "off"
+      ],
+      "rules": {
+        "nextjs/no-unexpected-polyfill-require": "error",
+        "nextjs/no-dynamic-assign-to-global": "error",
+        "nextjs/no-export-on-declaration": "error",
+        "nextjs/no-import-on-declaration": "error",
+        "nextjs/no-import-on-first-line": "error",
+        "nextjs/no-require": "error"
+
+
+  
   }
+}
+
 }
